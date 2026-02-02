@@ -1,0 +1,8 @@
+# MkDocs build output
+site/
+
+# IDE (JetBrains)
+.idea/
+
+# OS-generated files
+.DS_Store

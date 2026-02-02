@@ -1,0 +1,8 @@
+site_name: GTAF — Governance & Trust Architecture Framework
+site_author: TNT Intelligence GmbH
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
