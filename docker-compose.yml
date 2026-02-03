@@ -1,7 +1,18 @@
 services:
   mkdocs:
     build: .
+    command:
+      - mkdocs
+      - serve
+      - --dev-addr=0.0.0.0:8000
+      - --livereload
+      - --watch=/site/docs
+      - --watch=/site/mkdocs.yml
     ports:
       - "8000:8000"
+    environment:
+      - LIVERELOAD_USE_POLLING=1
+      - WATCHDOG_USE_POLLING=1
+      - WATCHDOG_USE_POLLING_TIMEOUT=1
     volumes:
       - .:/site

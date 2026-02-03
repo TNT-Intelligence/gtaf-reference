@@ -4,7 +4,8 @@ WORKDIR /site
 
 RUN pip install --no-cache-dir \
     mkdocs \
-    mkdocs-material
+    mkdocs-material \
+    watchdog
 
 EXPOSE 8000
 
