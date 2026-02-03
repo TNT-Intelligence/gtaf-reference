@@ -1,8 +1,94 @@
 site_name: GTAF — Governance & Trust Architecture Framework
-site_author: TNT Intelligence GmbH
+site_author: TNT Intelligence GmbH i.G.
 
 theme:
   name: material
 
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 nav:
   - Home: index.md
+
+  - Meta:
+      - Purpose: 00-meta/purpose.md
+      - Non-Goals: 00-meta/non-goals.md
+      - Reader Guide: 00-meta/reader-guide.md
+      - Citation & Versioning: 00-meta/citation-and-versioning.md
+      - Governance of the Reference: 00-meta/governance-of-the-reference.md
+
+  - Core Model:
+      - Overview: 01-core-model/overview.md
+      - Scope Model: 01-core-model/scope-model.md
+      - Claims & Conformance: 01-core-model/claims-and-conformance.md
+      - Conformity Claim Format: 01-core-model/conformity-claim-format.md
+      - Claim-to-DRC Mapping: 01-core-model/claim-to-drc-mapping.md
+
+  - Artifacts:
+      - System Boundary (SB): 02-artifacts/system-boundary.md
+      - Decision Record (DR): 02-artifacts/decision-record.md
+      - Responsibility Binding (RB): 02-artifacts/responsibility-binding.md
+      - Delegation Readiness Check (DRC): 02-artifacts/delegation-readiness-check.md
+      - Decision Review Board (DRB): 02-artifacts/decision-review-board.md
+      - Emergency Intervention System (EIS): 02-artifacts/emergency-intervention-system.md
+      - Decision Velocity Metrics (DVM): 02-artifacts/decision-velocity-metrics.md
+
+  - Rules:
+      - Invariants: 03-rules/invariants.md
+      - Cross-Artifact Consistency: 03-rules/cross-artifact-consistency.md
+      - ID & Naming Conventions: 03-rules/id-and-naming-conventions.md
+      - Common Fields & Metadata: 03-rules/common-fields-and-metadata.md
+      - Evidence & Reachability Rules: 03-rules/evidence-and-reachability.md
+      - Authority & Role Model: 03-rules/authority-and-role-model.md
+
+  - Lifecycle:
+      - Delegation Lifecycle: 04-lifecycle/delegation-lifecycle.md
+      - Event Catalog: 04-lifecycle/event-catalog.md
+      - Validity & Revalidation: 04-lifecycle/validity-and-revalidation.md
+
+  - Risk & Criticality:
+      - Risk Classes: 05-risk-and-criticality/risk-classes.md
+      - Classification Criteria: 05-risk-and-criticality/classification-criteria.md
+      - Minimum Requirements per Class: 05-risk-and-criticality/minimum-requirements-per-class.md
+
+  - Application:
+      - Minimal Application Path: 06-application/minimal-application-path.md
+      - Adoption Patterns: 06-application/adoption-patterns.md
+      - Non-Adoption & Scope Reduction: 06-application/non-adoption-and-scope-reduction.md
+      - Claim Index: 06-application/claim-index.md
+
+  - Example Corpus:
+      - Corpus Governance: 07-example-corpus/corpus-governance.md
+      - Reference Case (Low Risk): 07-example-corpus/reference-case-low-risk.md
+      - Reference Case (High Risk): 07-example-corpus/reference-case-high-risk.md
+
+  - Case Notes:
+      - Autonomous Agent (Generic): 08-case-notes/autonomous-agent-generic.md
+
+  - Relations:
+      - Relation to IAM & Zero Trust: 09-relations/relation-to-iam-and-zt.md
+      - Relation to Existing Frameworks: 09-relations/relation-to-existing-frameworks.md
+      - Comparison Lens: 09-relations/comparison-lens.md
+      - Academic Context: 09-relations/academic-context.md
+
+  - Terminology:
+      - Glossary: 10-terminology/glossary.md
+      - Definitions: 10-terminology/definitions.md
+      - Anti-Patterns: 10-terminology/anti-patterns.md
+
+  - Versions:
+      - Versioning & Change Control: 11-versions/versioning-and-change-control.md
+      - v0.1: 11-versions/v0.1.md
+      - v0.2: 11-versions/v0.2.md
+      - Roadmap: 11-versions/roadmap.md
