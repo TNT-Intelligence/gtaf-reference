@@ -2,3 +2,21 @@
 .md-header__button.md-logo {
   display: none;
 }
+
+/* DOI badge in header */
+.gtaf-doi-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.6rem;
+}
+
+.gtaf-doi-badge img {
+  height: 20px;
+  width: auto;
+}
+
+@media (max-width: 760px) {
+  .gtaf-doi-badge img {
+    height: 18px;
+  }
+}

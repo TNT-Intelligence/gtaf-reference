@@ -7,19 +7,19 @@ Minimum requirements are **normative baselines**. Scopes may adopt stricter valu
 
 ## Class A - Minimum GTAF set
 **Required**
-- [SB](/02-artifacts/system-boundary/)
-- [DR](/02-artifacts/decision-record/)
-- [RB](/02-artifacts/responsibility-binding/) if delegation is semi/autonomous (optional for assistive)
-- [DRC](/02-artifacts/delegation-readiness-check/) for any semi/autonomous activation
+- [SB](../02-artifacts/system-boundary/)
+- [DR](../02-artifacts/decision-record/)
+- [RB](../02-artifacts/responsibility-binding/) if delegation is semi/autonomous (optional for assistive)
+- [DRC](../02-artifacts/delegation-readiness-check/) for any semi/autonomous activation
 
 **Validity & cadence**
 - Review cycle: annual or event‑based
 - Escalation path must exist (may be simple)
-- [EIS](/02-artifacts/emergency-intervention-system/) optional (recommended if time‑to‑harm < 1 day)
+- [EIS](../02-artifacts/emergency-intervention-system/) optional (recommended if time‑to‑harm < 1 day)
 
 **Operational add‑ons**
-- [DRB](/02-artifacts/decision-review-board/) optional
-- [DVM](/02-artifacts/decision-velocity-metrics/) optional
+- [DRB](../02-artifacts/decision-review-board/) optional
+- [DVM](../02-artifacts/decision-velocity-metrics/) optional
 
 ## Class B - Elevated governance rigor
 **Required**
@@ -29,7 +29,7 @@ Minimum requirements are **normative baselines**. Scopes may adopt stricter valu
 - DRC mandatory for activation; validity window must be bounded
 - DRB mandatory review regime
 - EIS mandatory if time‑to‑harm is short or rollback is slow
-- Evidence and reachability requirements per [Evidence & Reachability Rules](/03-rules/evidence-and-reachability/)
+- Evidence and reachability requirements per [Evidence & Reachability Rules](../03-rules/evidence-and-reachability/)
 
 **Validity & cadence**
 - Review cycle: at least quarterly
@@ -48,7 +48,7 @@ Minimum requirements are **normative baselines**. Scopes may adopt stricter valu
 - DRB formal regime with drift signals and explicit outputs
 - EIS mandatory with reachable activation mechanism
 - DVM mandatory baseline with thresholds and reporting cadence
-- Evidence and reachability requirements per [Evidence & Reachability Rules](/03-rules/evidence-and-reachability/)
+- Evidence and reachability requirements per [Evidence & Reachability Rules](../03-rules/evidence-and-reachability/)
 
 **Validity & cadence**
 - Review cycle: at least monthly (or tighter if time‑to‑harm is immediate)

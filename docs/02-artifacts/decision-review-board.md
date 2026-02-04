@@ -29,5 +29,5 @@ revision: 1
 ```
 
 ## Key references
-- [Decision Drift](/10-terminology/glossary/#decision-drift)
-- [DRC](/02-artifacts/delegation-readiness-check/)
+- [Decision Drift](../10-terminology/glossary/#decision-drift)
+- [DRC](../02-artifacts/delegation-readiness-check/)

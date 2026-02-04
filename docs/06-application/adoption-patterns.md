@@ -13,5 +13,5 @@ Any work package that drifts into the following must be rejected or split into a
 ## What this phase must deliver
 - Purpose, scope, and non‑goals are fixed.
 - Five‑pillar method is defined and followed.
-- Artifact types, relations, and [invariants](/03-rules/invariants/) are normatively described.
+- Artifact types, relations, and [invariants](../03-rules/invariants/) are normatively described.
 - GTAF remains explainable and scope‑bound without delivery dependency.

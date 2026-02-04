@@ -4,7 +4,7 @@
 All referenced artifacts must exist and be valid within scope and validity window. Missing references are blockers.
 
 ## Scope coherence
-Artifacts in a context must be within the same [scope](/10-terminology/glossary/#scope) or explicitly linked by cross‑scope rules. Scope leakage invalidates readiness.
+Artifacts in a context must be within the same [scope](../10-terminology/glossary/#scope) or explicitly linked by cross‑scope rules. Scope leakage invalidates readiness.
 
 ## Conflict rules (normative)
 - Conflicting DR boundaries without precedence => NOT_PERMITTED.

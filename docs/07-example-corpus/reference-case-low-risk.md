@@ -76,7 +76,7 @@ Demonstrate a bounded financial decision domain where delegation is permitted un
 - Escalation coverage model changes
 
 ## Key references
-- [SB](/02-artifacts/system-boundary/)
-- [DR](/02-artifacts/decision-record/)
-- [RB](/02-artifacts/responsibility-binding/)
-- [DRC](/02-artifacts/delegation-readiness-check/)
+- [SB](../02-artifacts/system-boundary/)
+- [DR](../02-artifacts/decision-record/)
+- [RB](../02-artifacts/responsibility-binding/)
+- [DRC](../02-artifacts/delegation-readiness-check/)

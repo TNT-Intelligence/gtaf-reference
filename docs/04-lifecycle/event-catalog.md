@@ -6,8 +6,8 @@ This catalog defines canonical event codes used across GTAF to reference lifecyc
 Event codes allow:
 
 - deterministic invalidation vs review‑required semantics,
-- consistent [DRC](/02-artifacts/delegation-readiness-check/) blocker attribution,
-- traceable [DRB](/02-artifacts/decision-review-board/) outputs (“why was delegation suspended?”),
+- consistent [DRC](../02-artifacts/delegation-readiness-check/) blocker attribution,
+- traceable [DRB](../02-artifacts/decision-review-board/) outputs (“why was delegation suspended?”),
 - claim revocation/renewal reasons that are machine‑checkable without prescribing tooling.
 
 **Normative rule:** if an event appears in this catalog, it MUST be referenced by its code in DRC blockers, DRB outputs, and claim lifecycle notes (where applicable). If an event is used operationally but not cataloged, it must be added via change control.
@@ -54,7 +54,7 @@ Each event definition MUST specify:
 
 **SUSPEND**
 - delegation must stop immediately
-- [EIS](/02-artifacts/emergency-intervention-system/) may be activated (mandatory in Class C if severe)
+- [EIS](../02-artifacts/emergency-intervention-system/) may be activated (mandatory in Class C if severe)
 - transition target: SUSPENDED
 
 **REVIEW_REQUIRED**
@@ -80,14 +80,14 @@ Normative default: in Class C, treat REVIEW_REQUIRED conservatively—often as S
 - **Effect:** REVIEW_REQUIRED (enables drafting)
 - **Transition:** UNDEFINED → DRAFTING
 - **Required actions:** define scope.id/kind; link SB
-- **Artifacts:** Scope Record, [SB](/02-artifacts/system-boundary/) (anchor)
+- **Artifacts:** Scope Record, [SB](../02-artifacts/system-boundary/) (anchor)
 
 #### E-A2 - Artifact set drafted
 - **Trigger:** initial SB/DR/RB drafted for a context
 - **Effect:** REVIEW_REQUIRED
 - **Transition:** DRAFTING → EVALUABLE (only if closure exists)
 - **Required actions:** ensure closure and required fields
-- **Artifacts:** SB, [DR](/02-artifacts/decision-record/), (RB if needed)
+- **Artifacts:** SB, [DR](../02-artifacts/decision-record/), (RB if needed)
 
 ### B) Evaluation / Issuance Events
 #### E-B1 - DRC issued (PERMITTED)

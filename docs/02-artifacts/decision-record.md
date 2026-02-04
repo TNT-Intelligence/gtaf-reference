@@ -54,12 +54,12 @@ revision: 1
 
 ## Key rules
 - Missing escalation or exclusions makes a DR incomplete.
-- Delegation level determines whether an [RB](/02-artifacts/responsibility-binding/) is mandatory.
+- Delegation level determines whether an [RB](../02-artifacts/responsibility-binding/) is mandatory.
 - DR defines **permission to delegate**, not a meeting outcome.
 
 ## Key references
-- [Delegation](/10-terminology/glossary/#delegation)
-- [Delegation Level](/10-terminology/glossary/#delegation-level)
-- [Authority](/10-terminology/glossary/#authority-decision-authority)
-- [Mandate](/10-terminology/glossary/#mandate)
-- [System Boundary (SB)](/02-artifacts/system-boundary/)
+- [Delegation](../10-terminology/glossary/#delegation)
+- [Delegation Level](../10-terminology/glossary/#delegation-level)
+- [Authority](../10-terminology/glossary/#authority-decision-authority)
+- [Mandate](../10-terminology/glossary/#mandate)
+- [System Boundary (SB)](../02-artifacts/system-boundary/)

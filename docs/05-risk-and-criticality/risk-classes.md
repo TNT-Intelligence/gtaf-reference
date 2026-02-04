@@ -22,8 +22,8 @@ Not in scope:
 ## Normative principles (binding)
 - **RP1 — Minimum rigor**: risk class sets the floor, not the ceiling.
 - **RP2 — Impact over effort**: risk is defined by impact and irreversibility, not by how hard something is to build.
-- **RP3 — Autonomy amplifies risk**: higher [delegation level](/10-terminology/glossary/#delegation-level) requires re‑evaluation.
-- **RP4 — Scope‑bound**: risk class is assigned per [scope](/10-terminology/glossary/#scope), not globally.
+- **RP3 — Autonomy amplifies risk**: higher [delegation level](../10-terminology/glossary/#delegation-level) requires re‑evaluation.
+- **RP4 — Scope‑bound**: risk class is assigned per [scope](../10-terminology/glossary/#scope), not globally.
 - **RP5 — When uncertain, classify higher**.
 
 ## Class definitions (normative)
@@ -102,11 +102,11 @@ Downgrade is permissible only if:
 - reversibility is improved (fast, proven rollback),
 - boundary is narrowed and enforceable,
 - regulatory exposure is removed,
-- a [DRB](/02-artifacts/decision-review-board/) explicitly approves the downgrade and a new [DRC](/02-artifacts/delegation-readiness-check/) is issued.
+- a [DRB](../02-artifacts/decision-review-board/) explicitly approves the downgrade and a new [DRC](../02-artifacts/delegation-readiness-check/) is issued.
 
 ## Practical classification procedure
 
-1. Determine scope and anchor to [SB](/02-artifacts/system-boundary/).
+1. Determine scope and anchor to [SB](../02-artifacts/system-boundary/).
 
 2. Enumerate decision spaces (DR candidates) and delegation levels.
 

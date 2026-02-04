@@ -45,9 +45,9 @@ flowchart TB
 > - If any required artifact is invalid, delegation is NOT_PERMITTED.
 
 ## Start here
-- [Minimal Application Path](/06-application/minimal-application-path/)
-- [Risk Classes](/05-risk-and-criticality/risk-classes/)
-- [System Boundary (SB)](/02-artifacts/system-boundary/)
-- [Decision Record (DR)](/02-artifacts/decision-record/)
-- [Responsibility Binding (RB)](/02-artifacts/responsibility-binding/)
-- [Delegation Readiness Check (DRC)](/02-artifacts/delegation-readiness-check/)
+- [Minimal Application Path](../06-application/minimal-application-path/)
+- [Risk Classes](../05-risk-and-criticality/risk-classes/)
+- [System Boundary (SB)](../02-artifacts/system-boundary/)
+- [Decision Record (DR)](../02-artifacts/decision-record/)
+- [Responsibility Binding (RB)](../02-artifacts/responsibility-binding/)
+- [Delegation Readiness Check (DRC)](../02-artifacts/delegation-readiness-check/)

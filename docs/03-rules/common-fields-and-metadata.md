@@ -10,7 +10,7 @@
 ## Evidence model (normative)
 Evidence is referenced, not delivered. It must be stable and accessible.
 
-See: [Evidence & Reachability Rules](/03-rules/evidence-and-reachability/).
+See: [Evidence & Reachability Rules](../03-rules/evidence-and-reachability/).
 
 Recommended evidence fields:
 
@@ -26,7 +26,7 @@ Recommended evidence fields:
 - **Class C**: mandate + escalation coverage + EIS procedure + EIS reachability drills + DRB records + DVM baseline
 
 ## Reachability
-Reachability is a safety property: escalation/intervention must be practically reachable within [time‑to‑harm](/10-terminology/glossary/#time-to-harm) constraints.
+Reachability is a safety property: escalation/intervention must be practically reachable within [time‑to‑harm](../10-terminology/glossary/#time-to-harm) constraints.
 
 ## Authority model (minimum viable)
 Artifacts bind to roles, not persons. Authority MUST reference a mandate source and scope coverage.
@@ -40,7 +40,7 @@ Canonical roles:
 - Intervention Authority (IA)
 - Review Authority (RA)
 
-See: [Authority & Role Model](/03-rules/authority-and-role-model/).
+See: [Authority & Role Model](../03-rules/authority-and-role-model/).
 
 ## Separation of duties (risk-adjusted)
 - Class A: DA and RA may be same role in small scopes

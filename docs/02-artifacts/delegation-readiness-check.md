@@ -84,10 +84,10 @@ A DRC result is **NOT_PERMITTED** if any of the following holds:
 - `dr_ids[]` included in the context
 
 ### B) Artifact inputs
-- [SB](/02-artifacts/system-boundary/) (boundary anchor + referenced boundaries)
-- all referenced [DR](/02-artifacts/decision-record/)(s)
-- [RB](/02-artifacts/responsibility-binding/)(s) applicable to DRs (mandatory for semi/autonomous)
-- [DRB](/02-artifacts/decision-review-board/), [EIS](/02-artifacts/emergency-intervention-system/), [DVM](/02-artifacts/decision-velocity-metrics/) if required by class
+- [SB](../02-artifacts/system-boundary/) (boundary anchor + referenced boundaries)
+- all referenced [DR](../02-artifacts/decision-record/)(s)
+- [RB](../02-artifacts/responsibility-binding/)(s) applicable to DRs (mandatory for semi/autonomous)
+- [DRB](../02-artifacts/decision-review-board/), [EIS](../02-artifacts/emergency-intervention-system/), [DVM](../02-artifacts/decision-velocity-metrics/) if required by class
 
 ### C) Evidence inputs
 - mandate evidence for DR authority and RB
@@ -334,12 +334,12 @@ A DRC artifact instance MUST record:
 - issuance timestamp and validity window
 
 ## Key references
-- [Scope](/10-terminology/glossary/#scope)
-- [Risk Class](/10-terminology/glossary/#risk-class-a-b-c)
-- [Validity Window](/10-terminology/glossary/#validity-window)
-- [Evidence](/10-terminology/glossary/#evidence)
-- [Evidence & Reachability Rules](/03-rules/evidence-and-reachability/)
-- [Reachability](/10-terminology/glossary/#reachability)
-- [Decision Review Board (DRB)](/02-artifacts/decision-review-board/)
-- [Emergency Intervention System (EIS)](/02-artifacts/emergency-intervention-system/)
-- [Decision Velocity Metrics (DVM)](/02-artifacts/decision-velocity-metrics/)
+- [Scope](../10-terminology/glossary/#scope)
+- [Risk Class](../10-terminology/glossary/#risk-class-a-b-c)
+- [Validity Window](../10-terminology/glossary/#validity-window)
+- [Evidence](../10-terminology/glossary/#evidence)
+- [Evidence & Reachability Rules](../03-rules/evidence-and-reachability/)
+- [Reachability](../10-terminology/glossary/#reachability)
+- [Decision Review Board (DRB)](../02-artifacts/decision-review-board/)
+- [Emergency Intervention System (EIS)](../02-artifacts/emergency-intervention-system/)
+- [Decision Velocity Metrics (DVM)](../02-artifacts/decision-velocity-metrics/)

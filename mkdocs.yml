@@ -3,6 +3,7 @@ site_author: TNT Intelligence GmbH i.G.
 
 theme:
   name: material
+  custom_dir: docs/overrides
 
 extra_css:
   - stylesheets/extra.css

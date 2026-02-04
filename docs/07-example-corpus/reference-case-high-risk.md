@@ -113,10 +113,10 @@ Demonstrate mission‑critical delegation where the cost of failure is catastrop
 - any delegation level change
 
 ## Key references
-- [SB](/02-artifacts/system-boundary/)
-- [DR](/02-artifacts/decision-record/)
-- [RB](/02-artifacts/responsibility-binding/)
-- [DRC](/02-artifacts/delegation-readiness-check/)
-- [DRB](/02-artifacts/decision-review-board/)
-- [EIS](/02-artifacts/emergency-intervention-system/)
-- [DVM](/02-artifacts/decision-velocity-metrics/)
+- [SB](../02-artifacts/system-boundary/)
+- [DR](../02-artifacts/decision-record/)
+- [RB](../02-artifacts/responsibility-binding/)
+- [DRC](../02-artifacts/delegation-readiness-check/)
+- [DRB](../02-artifacts/decision-review-board/)
+- [EIS](../02-artifacts/emergency-intervention-system/)
+- [DVM](../02-artifacts/decision-velocity-metrics/)

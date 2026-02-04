@@ -1,3 +1,8 @@
+## v0.1.3 - 2026-02-04
+- Documentation UX/infra only. No normative content changes.
+- Fix internal links for /reference base path.
+- Add DOI badge to header (local asset for fast load).
+
 ## v0.1.2 - 2026-02-04
 - Packaging/CI only. No normative content changes.
 - Multi-arch Docker image build (amd64, arm64).

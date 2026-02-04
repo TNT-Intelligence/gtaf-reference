@@ -267,7 +267,7 @@ Claims are overlays and inherit validity from the underlying DC state:
 - If DC becomes INVALIDATED or SUSPENDED → the claim becomes invalid for operational use.
 - Claims must be renewed after recovery alongside DRC renewal.
 
-See: [Evidence & Reachability Rules](/03-rules/evidence-and-reachability/).
+See: [Evidence & Reachability Rules](../03-rules/evidence-and-reachability/).
 
 ## Guardrails (anti-patterns)
 - Continuing delegation in EXPIRING/INVALIDATED because “nothing happened yet”.
