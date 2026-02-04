@@ -1,3 +1,7 @@
+## v0.1.2 - 2026-02-04
+- Packaging/CI only. No normative content changes.
+- Multi-arch Docker image build (amd64, arm64).
+
 ## v0.1.1 - 2026-02-04
 - Packaging/CI only. No normative content changes.
 
