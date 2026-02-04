@@ -10,7 +10,7 @@ Minimum claim fields:
 - `scope.id`
 - `gtaf_ref.version`
 - `valid_from`, `valid_until`
-- `basis.drc_ids` (list of [DRC](../02-artifacts/delegation-readiness-check/) IDs; required if delegation exists)
+- `basis.drc_ids` (list of [DRC](../02-artifacts/delegation-readiness-check.md) IDs; required if delegation exists)
 - `basis.artifact_set` (minimal closure set)
 - `issuer.role`
 - `issued_at`
@@ -21,11 +21,11 @@ Without these fields, the claim is structurally undefined and must be treated as
 ## Structural meaning
 A scope is GTAF‑conformant only if the **minimal formal artifact core** is satisfied:
 
-- [SB](../02-artifacts/system-boundary/) exists and decision is inside boundary.
-- [DR](../02-artifacts/decision-record/) exists for the decision space.
-- [RB](../02-artifacts/responsibility-binding/) binds outcome ownership to mandate and role.
-- [DRC](../02-artifacts/delegation-readiness-check/) is issuable and PERMITTED.
-- Temporality and [risk class](../05-risk-and-criticality/risk-classes/) requirements are satisfied.
+- [SB](../02-artifacts/system-boundary.md) exists and decision is inside boundary.
+- [DR](../02-artifacts/decision-record.md) exists for the decision space.
+- [RB](../02-artifacts/responsibility-binding.md) binds outcome ownership to mandate and role.
+- [DRC](../02-artifacts/delegation-readiness-check.md) is issuable and PERMITTED.
+- Temporality and [risk class](../05-risk-and-criticality/risk-classes.md) requirements are satisfied.
 
 ## Two-layer versioning (reader guidance)
 Conformity depends on **both** layers:
@@ -39,7 +39,7 @@ Both must hold. A valid artifact set without a declared reference version is **n
 - Claims expire automatically at `valid_until`.
 - Any invalidation of a basis artifact invalidates the claim.
 - Claims do **not** override artifacts; they summarize their structural state.
-- Claims MUST specify the [reference version](../10-terminology/glossary/#reference-version) used to interpret artifacts.
+- Claims MUST specify the [reference version](../10-terminology/glossary.md#reference-version) used to interpret artifacts.
 
 ## Common invalid patterns
 - Claim without scope or time window.
@@ -48,9 +48,9 @@ Both must hold. A valid artifact set without a declared reference version is **n
 - Claim without evidence references where reachability is required.
 
 ## Key references
-- [Conformity](../10-terminology/glossary/#conformity-gtaf-conformant)
-- [Reference Version](../10-terminology/glossary/#reference-version)
-- [Validity Window](../10-terminology/glossary/#validity-window)
-- [Versioning & Change Control](../11-versions/versioning-and-change-control/)
-- [Conformity Claim Format](../01-core-model/conformity-claim-format/)
-- [Claim-to-DRC Mapping](../01-core-model/claim-to-drc-mapping/)
+- [Conformity](../10-terminology/glossary.md#conformity-gtaf-conformant)
+- [Reference Version](../10-terminology/glossary.md#reference-version)
+- [Validity Window](../10-terminology/glossary.md#validity-window)
+- [Versioning & Change Control](../11-versions/versioning-and-change-control.md)
+- [Conformity Claim Format](../01-core-model/conformity-claim-format.md)
+- [Claim-to-DRC Mapping](../01-core-model/claim-to-drc-mapping.md)

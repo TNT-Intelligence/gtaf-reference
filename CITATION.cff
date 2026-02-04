@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this reference, please cite it."
 title: "GTAF Reference"
 type: software
-version: "0.1.3"
+version: "0.1.4"
 doi: "10.5281/zenodo.18472596"
 date-released: "2026-02-04"
 license: "CC-BY-4.0"

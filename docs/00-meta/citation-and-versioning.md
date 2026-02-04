@@ -8,7 +8,7 @@ Any conformity statement or reference MUST include:
 - **Validity window**
 - **Basis** (DRC IDs and artifact closure)
 
-See: [Claims & Conformance](../01-core-model/claims-and-conformance/).
+See: [Claims & Conformance](../01-core-model/claims-and-conformance.md).
 
 ## Reference binding
 Every artifact MUST declare `gtaf_ref.version`. Artifacts without a reference version are **structurally uninterpretable**.

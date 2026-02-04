@@ -15,22 +15,22 @@ Key properties: identity, scope binding, validity window, revision, references.
 ## Foundation Artifacts
 The minimal set of artifacts required to define delegation and responsibility:
 
-- [System Boundary (SB)](../02-artifacts/system-boundary/)
-- [Decision Record (DR)](../02-artifacts/decision-record/)
-- [Responsibility Binding (RB)](../02-artifacts/responsibility-binding/)
-- [Delegation Readiness Check (DRC)](../02-artifacts/delegation-readiness-check/)
+- [System Boundary (SB)](../02-artifacts/system-boundary.md)
+- [Decision Record (DR)](../02-artifacts/decision-record.md)
+- [Responsibility Binding (RB)](../02-artifacts/responsibility-binding.md)
+- [Delegation Readiness Check (DRC)](../02-artifacts/delegation-readiness-check.md)
 
 ## Lifecycle Artifacts
 Artifacts that enable safe operation over time:
 
-- [Decision Review Board (DRB)](../02-artifacts/decision-review-board/)
-- [Emergency Intervention / Kill‑Switch (EIS)](../02-artifacts/emergency-intervention-system/)
-- [Decision Velocity Metrics (DVM)](../02-artifacts/decision-velocity-metrics/)
+- [Decision Review Board (DRB)](../02-artifacts/decision-review-board.md)
+- [Emergency Intervention / Kill‑Switch (EIS)](../02-artifacts/emergency-intervention-system.md)
+- [Decision Velocity Metrics (DVM)](../02-artifacts/decision-velocity-metrics.md)
 
 ## System Boundary (SB)
 A formal definition of where responsibility and liability apply and stop, expressed as included/excluded components, allowed interfaces, data spaces, and mapping to organizational/legal ownership.
 
-Normative implication: No delegation is valid without an [SB](../02-artifacts/system-boundary/).
+Normative implication: No delegation is valid without an [SB](../02-artifacts/system-boundary.md).
 
 ## Decision Record (DR)
 A formal representation of a delegable decision space: what can be decided, under which constraints, by whom (role), with which delegation level, triggers, escalation, and expiry policy.
@@ -43,7 +43,7 @@ Origins: decision-rights governance literature (e.g., RAPID-style frameworks).
 ## Responsibility Binding (RB)
 A formal binding that assigns outcome ownership for one or more DRs to a role and mandate source. RB ensures accountability remains human/organizational even when systems act autonomously.
 
-Normative implication: No semi‑autonomous or autonomous delegation is valid without an [RB](../02-artifacts/responsibility-binding/).
+Normative implication: No semi‑autonomous or autonomous delegation is valid without an [RB](../02-artifacts/responsibility-binding.md).
 
 Related terms (non-binding, mapping): accountability assignment, RACI owner.  
 Origins: RACI-style responsibility assignment matrices.
@@ -51,7 +51,7 @@ Origins: RACI-style responsibility assignment matrices.
 ## Delegation Readiness Check (DRC)
 A binary validation artifact representing whether delegation for a specific target context is structurally PERMITTED or NOT_PERMITTED, based on completeness and validity of required artifacts and evidence.
 
-Normative implication: [DRC](../02-artifacts/delegation-readiness-check/) is non‑negotiable; missing prerequisites yield NOT_PERMITTED.
+Normative implication: [DRC](../02-artifacts/delegation-readiness-check.md) is non‑negotiable; missing prerequisites yield NOT_PERMITTED.
 
 Related terms (non-binding, mapping): readiness gate, governance gate.  
 Origins: governance gating practices in safety and compliance programs.
@@ -90,7 +90,7 @@ A safety property: the practical ability to activate escalation or intervention 
 ## Emergency Intervention / Kill-Switch (EIS)
 A structural mechanism, defined as an artifact, that allows authorized roles to immediately suspend delegated authority for a scope, boundary, DR, or target.
 
-Normative implication: mandatory for Class C and for scopes with short time‑to‑harm. See [EIS](../02-artifacts/emergency-intervention-system/).
+Normative implication: mandatory for Class C and for scopes with short time‑to‑harm. See [EIS](../02-artifacts/emergency-intervention-system.md).
 
 Related terms (non-binding, mapping): kill switch, emergency stop.  
 Origins: safety and operational control practices.
@@ -153,7 +153,7 @@ The time span during which an artifact (or claim) is considered active and appli
 ## Evidence
 Referenceable objects (documents, logs, test records, diagrams) that substantiate structural claims, especially mandates and reachability.
 
-See: [Evidence & Reachability Rules](../03-rules/evidence-and-reachability/).
+See: [Evidence & Reachability Rules](../03-rules/evidence-and-reachability.md).
 
 ## Time-to-Harm
 The maximum time window between a failure/anomaly and unacceptable harm. Time‑to‑harm determines required reachability and review rigor.

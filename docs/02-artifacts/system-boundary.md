@@ -51,5 +51,5 @@ decision_rights: [refund_decisions_under_500]
 - No ownership mapping to legal/org entities
 
 ## Key references
-- [Scope](../10-terminology/glossary/#scope)
-- [Decision Record (DR)](../02-artifacts/decision-record/)
+- [Scope](../10-terminology/glossary.md#scope)
+- [Decision Record (DR)](../02-artifacts/decision-record.md)

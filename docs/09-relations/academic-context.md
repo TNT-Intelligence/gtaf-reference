@@ -1,6 +1,6 @@
 # Academic Context
 
-This page provides GTAF’s academic anchors. It complements the standards/frameworks positioning in [Related Work / Theoretical Anchor](../09-relations/relation-to-existing-frameworks/).
+This page provides GTAF’s academic anchors. It complements the standards/frameworks positioning in [Related Work / Theoretical Anchor](../09-relations/relation-to-existing-frameworks.md).
 
 ## Agency Theory (Principal-Agent)
 **Core idea:** when authority is delegated, information asymmetries and misaligned incentives create agency costs; formal structures are needed to control them.

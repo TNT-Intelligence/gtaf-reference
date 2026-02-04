@@ -16,8 +16,8 @@ Immediate, structural suspension of delegated authority inside an SB or for spec
 EIS must be reachable under degraded conditions and must not depend on the failing subsystem.
 
 ## Key references
-- [Reachability](../10-terminology/glossary/#reachability)
-- [Time‑to‑Harm](../10-terminology/glossary/#time-to-harm)
+- [Reachability](../10-terminology/glossary.md#reachability)
+- [Time‑to‑Harm](../10-terminology/glossary.md#time-to-harm)
 
 ## Example (non-binding, tool-agnostic)
 ```yaml

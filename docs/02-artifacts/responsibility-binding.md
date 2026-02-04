@@ -35,6 +35,6 @@ revision: 1
 No semi‑autonomous or autonomous execution without an active RB.
 
 ## Key references
-- [Outcome Ownership](../10-terminology/glossary/#outcome-ownership)
-- [Mandate](../10-terminology/glossary/#mandate)
-- [Decision Record (DR)](../02-artifacts/decision-record/)
+- [Outcome Ownership](../10-terminology/glossary.md#outcome-ownership)
+- [Mandate](../10-terminology/glossary.md#mandate)
+- [Decision Record (DR)](../02-artifacts/decision-record.md)

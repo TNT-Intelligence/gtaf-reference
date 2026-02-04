@@ -21,7 +21,7 @@ Not in scope:
 - **S1 — No artifact without scope**: every artifact MUST bind to exactly one scope.
 - **S2 — Scope is a boundary domain**: scope must be defensible as a bounded applicability domain.
 - “Entire company” is permissible only if a corresponding boundary strategy exists.
-- **S3 — Scope must be boundary-anchored**: every scope MUST anchor to a [System Boundary](../02-artifacts/system-boundary/).
+- **S3 — Scope must be boundary-anchored**: every scope MUST anchor to a [System Boundary](../02-artifacts/system-boundary.md).
 - **S4 — Scope governs interpretation**: the same artifact type can have different meaning in different scopes.
 - **S5 — Overlap must be explicit**: overlap requires explicit precedence and responsibility resolution.
 
@@ -88,7 +88,7 @@ If altered, the altered precedence MUST be explicitly documented.
 - **SI1 — Enforceable boundary claim**: must be able to answer what is inside, what is outside, and where responsibility stops.
 - **SI2 — Conformity is never global by default**: “GTAF compliant” without scope is invalid.
 - **SI3 — No cross‑scope delegation without explicit linkage**.
-- **SI4 — Scope changes trigger revalidation**: expand/split/merge/ownership changes require new [DRC](../02-artifacts/delegation-readiness-check/).
+- **SI4 — Scope changes trigger revalidation**: expand/split/merge/ownership changes require new [DRC](../02-artifacts/delegation-readiness-check.md).
 
 ## Scope metadata (recommended schema fields)
 - `scope.id`

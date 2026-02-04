@@ -4,7 +4,7 @@ Official reference publication of the Governance & Trust Architecture Framework 
 GTAF is a **normative, artifact‑centric framework** for delegation in complex technical systems. It defines the minimum structural prerequisites that must be true before delegation is permitted.
 
 ## Status
-This repository is the **normative reference**. Current reference version: **v0.1.3**.  
+This repository is the **normative reference**. Current reference version: **v0.1.4**.  
 If you need to make or interpret conformity claims, always bind them to **(Scope, Reference Version, Validity Window)**.
 
 ## Public Availability

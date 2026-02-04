@@ -3,7 +3,7 @@
 GTAF rules are **non‑negotiable**. If prerequisites are not satisfied, delegation is **NOT_PERMITTED**.
 
 ## Normative implications
-- If required artifacts are missing or invalid, [DRC](../02-artifacts/delegation-readiness-check/) cannot be PERMITTED.
+- If required artifacts are missing or invalid, [DRC](../02-artifacts/delegation-readiness-check.md) cannot be PERMITTED.
 - If boundaries, mandates, or roles are unclear, delegation must not proceed.
 - If scope changes, revalidation is mandatory before delegation continues.
 

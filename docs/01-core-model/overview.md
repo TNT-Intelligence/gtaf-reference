@@ -1,16 +1,16 @@
 # Core Model Overview
 
-GTAF is **artifact-centric**. An artifact is a structured state description with identity and references; artifacts **constitute normative reality**, not documentation. Delegation is valid only when the required artifacts exist, are coherent, and are within their [validity windows](../10-terminology/glossary/#validity-window).
+GTAF is **artifact-centric**. An artifact is a structured state description with identity and references; artifacts **constitute normative reality**, not documentation. Delegation is valid only when the required artifacts exist, are coherent, and are within their [validity windows](../10-terminology/glossary.md#validity-window).
 
 ## Delegation as responsibility transfer
-Delegation transfers decision space from humans to machines, teams, providers, or workflows. **Delegation is permissible only if responsibility and decision authority are explicit, bound, and verifiable** within a defined [scope](../10-terminology/glossary/#scope).
+Delegation transfers decision space from humans to machines, teams, providers, or workflows. **Delegation is permissible only if responsibility and decision authority are explicit, bound, and verifiable** within a defined [scope](../10-terminology/glossary.md#scope).
 
 ## Model components (entity overview)
 GTAF consists of:
 
-- **Foundation artifacts**: [SB](../02-artifacts/system-boundary/), [DR](../02-artifacts/decision-record/), [RB](../02-artifacts/responsibility-binding/), [DRC](../02-artifacts/delegation-readiness-check/)
-- **Lifecycle artifacts**: [DRB](../02-artifacts/decision-review-board/), [EIS](../02-artifacts/emergency-intervention-system/), [DVM](../02-artifacts/decision-velocity-metrics/)
-- **Meta rules**: [validity](../10-terminology/glossary/#validity-window), [versioning](../10-terminology/glossary/#reference-version), [risk classes](../05-risk-and-criticality/risk-classes/), [scope](../01-core-model/scope-model/)
+- **Foundation artifacts**: [SB](../02-artifacts/system-boundary.md), [DR](../02-artifacts/decision-record.md), [RB](../02-artifacts/responsibility-binding.md), [DRC](../02-artifacts/delegation-readiness-check.md)
+- **Lifecycle artifacts**: [DRB](../02-artifacts/decision-review-board.md), [EIS](../02-artifacts/emergency-intervention-system.md), [DVM](../02-artifacts/decision-velocity-metrics.md)
+- **Meta rules**: [validity](../10-terminology/glossary.md#validity-window), [versioning](../10-terminology/glossary.md#reference-version), [risk classes](../05-risk-and-criticality/risk-classes.md), [scope](../01-core-model/scope-model.md)
 
 ## Artifact Relationship Overview (non-binding)
 ```mermaid
@@ -69,6 +69,6 @@ delegation_allowed =
 ```
 
 ## Interpretability constraints
-- Artifacts are interpretable only relative to a [GTAF reference version](../10-terminology/glossary/#reference-version).
-- Artifacts and claims are valid only within a [scope](../10-terminology/glossary/#scope) and [time window](../10-terminology/glossary/#validity-window).
+- Artifacts are interpretable only relative to a [GTAF reference version](../10-terminology/glossary.md#reference-version).
+- Artifacts and claims are valid only within a [scope](../10-terminology/glossary.md#scope) and [time window](../10-terminology/glossary.md#validity-window).
 - If any referenced artifact is invalid or outside scope, readiness and claims are invalid.

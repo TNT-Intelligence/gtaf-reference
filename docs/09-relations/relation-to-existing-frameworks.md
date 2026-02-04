@@ -87,7 +87,7 @@ If a framework answers mainly:
 - “Is this delegation structurally permitted—here, now, for this scope—given authority, boundaries, ownership, intervention reachability, and validity?”
 
 ## Theoretical anchors (academic)
-For academic foundations, see [Academic Context](../09-relations/academic-context/).
+For academic foundations, see [Academic Context](../09-relations/academic-context.md).
 
 ## Practical implication: compatibility, not replacement
 - ISO/IEC 42001 / NIST AI RMF / EU AI Act define governance goals and obligations.
@@ -95,7 +95,7 @@ For academic foundations, see [Academic Context](../09-relations/academic-contex
 - RAPID clarifies roles in decisions.
 - GTAF defines whether delegation is **structurally permitted**, and makes that permission claimable only within scope/version/time‑window semantics.
 
-See also: [Comparison Lens](../09-relations/comparison-lens/).
+See also: [Comparison Lens](../09-relations/comparison-lens.md).
 
 ## Suggested reference list (starter set)
 This is a short, curated bibliography (non‑exhaustive):

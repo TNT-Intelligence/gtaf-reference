@@ -1,3 +1,7 @@
+## v0.1.4 - 2026-02-04
+- Documentation UX/infra only. No normative content changes.
+- Normalize internal links to explicit `.md` targets for reliable routing.
+
 ## v0.1.3 - 2026-02-04
 - Documentation UX/infra only. No normative content changes.
 - Fix internal links for /reference base path.

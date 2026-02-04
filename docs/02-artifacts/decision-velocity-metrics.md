@@ -34,5 +34,5 @@ revision: 1
 ```
 
 ## Key references
-- [Decision Debt](../10-terminology/glossary/#decision-debt)
-- [DRB](../02-artifacts/decision-review-board/)
+- [Decision Debt](../10-terminology/glossary.md#decision-debt)
+- [DRB](../02-artifacts/decision-review-board.md)
