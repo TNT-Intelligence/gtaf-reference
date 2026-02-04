@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this reference, please cite it."
 title: "GTAF Reference"
 type: software
-version: "0.1.0"
+version: "0.1.1"
 license: "CC-BY-4.0"
 url: "https://github.com/TNT-Intelligence/gtaf-reference"
 authors:

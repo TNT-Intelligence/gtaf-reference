@@ -4,7 +4,7 @@ Official reference publication of the Governance & Trust Architecture Framework 
 GTAF is a **normative, artifact‑centric framework** for delegation in complex technical systems. It defines the minimum structural prerequisites that must be true before delegation is permitted.
 
 ## Status
-This repository is the **normative reference**. Current reference version: **v0.1.0**.  
+This repository is the **normative reference**. Current reference version: **v0.1.1**.  
 If you need to make or interpret conformity claims, always bind them to **(Scope, Reference Version, Validity Window)**.
 
 ## Public Availability
@@ -53,15 +53,21 @@ docker compose down
 Prereqs:
 - Python 3.12+
 - MkDocs + MkDocs Material
+- pymdown-extensions (required by `mkdocs.yml`)
 
 ```sh
-pip install mkdocs mkdocs-material watchdog
+pip install mkdocs mkdocs-material pymdown-extensions watchdog
 mkdocs serve --dev-addr=0.0.0.0:8000
 ```
 
 ## Editing
 All content lives under `docs/`. With Docker Compose running, edits to `.md` files
 are live‑reloaded automatically.
+
+## Docker Image (Release)
+A GitHub Actions workflow builds and publishes a Docker image on each published release:
+- Image: `ghcr.io/tnt-intelligence/gtaf-reference`
+- Tags: the release tag
 
 ## Repository Structure
 - `docs/`: GTAF reference content (MkDocs source)
