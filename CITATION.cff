@@ -1,11 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this reference, please cite it."
 title: "GTAF Reference"
-type: software
-version: "0.1.4"
-doi: "10.5281/zenodo.18472596"
-date-released: "2026-02-04"
-license: "CC-BY-4.0"
-url: "https://github.com/TNT-Intelligence/gtaf-reference"
+version: "v0.1.0"
+doi: "10.5281/zenodo.18472598"
+date-released: "2026-02-03"
+license: CC-BY-4.0
+url: https://github.com/TNT-Intelligence/gtaf-reference
 authors:
-  - name: "TNT Intelligence GmbH i.G."
+  - family-names: Ullrich
+    given-names: Tim
+    affiliation: TNT Intelligence GmbH
